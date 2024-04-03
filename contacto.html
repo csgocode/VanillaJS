@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Blog Literario</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo del Blog Literario">
+        </a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="resenas.html">Reseñas</a></li>
+            <li><a href="resenas.html#ultima-entrada">Última entrada</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h1>Formulario de Contacto</h1>
+
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre:</label></td>
+                <td><input type="text" id="nombre" name="nombre" size="12" maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td><label for="primer-apellido">Primer apellido:</label></td>
+                <td><input type="text" id="primer-apellido" name="primer_apellido" size="12" maxlength="12" required></td>
+            </tr>
+            <tr>
+                <td><label for="segundo-apellido">Segundo apellido:</label></td>
+                <td><input type="text" id="segundo-apellido" name="segundo_apellido" size="12" maxlength="12"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" size="20" required></td>
+            </tr>
+            <tr>
+                <td><label for="comentarios">Comentarios:</label></td>
+                <td><textarea id="comentarios" name="comentarios" rows="10" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Terminar</button>
+                    <button type="reset">Empezar de nuevo</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <footer>
+        Blog Literario 480 | 2024 - Todos los derechos reservados.
+    </footer>
+</body>
+</html>
